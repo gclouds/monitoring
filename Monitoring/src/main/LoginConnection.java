@@ -6,10 +6,12 @@
 package main;
 
 import com.mysql.jdbc.Connection;
+
 import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
+
 import javax.servlet.http.HttpServletRequest;
 
 /**
@@ -18,7 +20,7 @@ import javax.servlet.http.HttpServletRequest;
  */
 public class LoginConnection {
     Connection con=null;
-    LoginGet lg=null;
+    String pwd=null;
     String email=null;
     
     public  LoginConnection(HttpServletRequest request) throws SQLException, ClassNotFoundException
@@ -28,13 +30,13 @@ public class LoginConnection {
         String un = "root";
         String pw = "";
         con = (Connection) DriverManager.getConnection(url, un, pw);
-        this.lg = lg;
+        email=request.getParameter("email");
+        pwd = AuthCode.getHashCode(request.getParameter("pwd"));
     }
             
     public boolean loginTest()  throws Exception
     {
-        email=lg.email;
-        String pwd=lg.pwd;
+ 
         String sql="select * from user_table where email='"+email+"' ";
         Statement stmt =con.createStatement();
         ResultSet rs=stmt.executeQuery(sql);
