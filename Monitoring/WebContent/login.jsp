@@ -11,7 +11,7 @@
 <% if(request.getParameter("submit") != null)
 {
     LoginGet lg1=new LoginGet(request);
-    LoginConnection lgc=new LoginConnection(lg1);
+    LoginConnection lgc=new LoginConnection(request);
     boolean chck=lgc.loginTest();
     if(!chck)
     out.print("nhi hio raha");
