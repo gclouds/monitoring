@@ -1,0 +1,177 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+     margin:0px;
+	 padding:0px;
+
+}
+.container{
+	float:left;
+	height:130px;
+	width:100%;
+	border:1px solid #000000;
+	margin:0px 0px 0px 0px;
+	 
+	}
+.container img
+{
+margin:0px 0px 0px 35px;
+}
+.container .login{
+	float:left;
+	height:129px;
+	width:30%;
+	
+	
+}
+.container .login ul{
+	float:left;
+	display:block;
+	list-style-type:none;
+}
+.container .login ul li{
+	float:left;
+	height:30px;
+	width:200px;
+	margin-top:5px;
+	text-align:center;
+}
+.container .login ul li a:link{
+	float:left;
+	text-decoration:none;
+	text-align:center;
+	margin:5px 0px 5px 10px;
+	color:#FFFFFF;
+}
+header{
+        float:left;
+		height:120px;
+		width:70%;
+		
+		}
+.menu2_container{
+	float:left;
+	height:130px;
+	width:100%;
+	background:#009100;
+	margin-top:0px;}
+.headings_icon1
+{
+float:left;
+	height:120px;
+	width:10%;
+	margin:10px 0px 5px 0px;
+	background:#009100;
+}
+.headings_icon2
+{
+float:left;
+	height:120px;
+	width:83%;
+	margin:10px 0px 5px 0px;
+	background:#009100;
+}
+.headings_icon{
+	float:left;
+	height:120px;
+	width:7%;
+	margin:10px 0px 5px 0px;
+	background:#009100;
+	
+	
+}
+
+.headings_content{
+	float:left;
+	height:129px;
+	width:80%;
+	margin:5px 5px 5px 5px;
+}
+main{
+float:left;
+height:800px;
+width:75%;
+margin:0px 12.5% 0px 12.5%;
+}
+section{
+float:left;
+height:800px;
+width:30%;
+}
+aside{
+	float:left;
+height:800px;
+width:70%;
+
+}
+.container2
+{ 
+float:left;
+	height:280px;
+	width:100%;
+	border-bottom:1px solid #000000;
+	}
+	.container3
+	{
+	float:left;
+	height:280px;
+	width:12%;
+	
+	
+	}
+	.container4
+	{
+	float:left;
+	height:280px;
+	width:25%;
+	
+	font-size:22px;	
+	}
+	.container5
+	{
+	float:left;
+	height:280px;
+	width:25%;
+	
+	}
+	.container6
+	{
+	float:left;
+	height:280px;
+	width:38%;
+	
+	}
+	main
+	{
+	
+height:"400px";
+width:"80%";
+margin:25px 10% 0px 10%;
+
+	}
+	main .cotainer7
+	{
+	float:left;
+	height:300px;
+
+	width:100%;
+	}
+main .cotainer7 .block1
+{
+float:left;
+	height:300px;
+
+	width:40%;
+	}
+	main .cotainer7 .space
+	{
+	float:left;
+	height:300px;
+	width:20%;
+	}
+	footer{
+	float:left;
+		height:120px;
+		width:100%;
+		background-color:#009100;
+	}
