@@ -1,0 +1,79 @@
+#header {
+    margin: 10px 0px 0px 50px;
+    width: 900px;
+    float: left;
+    displ
+
+}
+#main {
+    margin: 10px 0px 0px 50px;
+    height: 200px;
+    width: 673px;
+     float: left;
+}
+#footer {
+    margin: 10px 0px 0px 50px;
+	height: 300px;
+	width: 900px;
+	clear: both;
+
+}
+#sideMon{
+	width: 222px;
+	float: left;
+	height: 200px;
+	padding: 0px;
+	border:thin solid blue;
+}
+#mainCon{
+	float: left;
+
+}
+#pingTime {
+	width: 50px;
+	}
+#response{
+	width: 100px;
+}
+td{
+white-space: nowrap;
+padding: 0px;
+margin: 10px 0px 0px 0px;
+}
+
+#selectEnv { 
+   width: 135px;
+}
+#endPoiint { 
+   width: 300px;
+}
+#url { 
+   width: 435px;
+}
+
+#fillData {
+	 margin: 0px 0px 0px 0px ;
+	max-width: 1000px;
+	max-height: 500px;
+	overflow: scroll;
+	background-color: #CCCCCC;
+}
+
+img1{
+	 position: fixed;
+    top: 1px;
+    left: 110px;
+}
+h2,h3 {
+	margin: 10px 0px 0px 0px;
+	padding:  0px;
+}
+body{
+	margin: 0px;
+	padding: 0px;
+	background-color: #F0F0F0;
+}
+textarea{
+	width: 98%;
+	height: 100px;
+}
