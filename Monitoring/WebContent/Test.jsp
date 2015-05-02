@@ -5,9 +5,9 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Insert title here</title>
-<script language="javascript" src="jquery/monitormask.js"></script>
-<script language="javascript" src="jquery/jquery-2.1.3.min.js"></script>
-<link href="jquery/http.css" rel="stylesheet" type="text/css"/>
+<script language="javascript" src="js/monitormask.js"></script>
+<script language="javascript" src="js/jquery-2.1.3.min.js"></script>
+<link href="css/http.css" rel="stylesheet" type="text/css"/>
  <script type="text/javascript">
  
  $(document).ready(function(){
