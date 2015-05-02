@@ -11,6 +11,25 @@
 <link href="css/
 dshcss.css" rel="stylesheet" type="text/css"/>
 
+<script src="js/jquery-1.11.2.min.js" type="text/javascript"></script>
+<link href="css/http.css" rel="stylesheet" type="text/css"/>
+<script language="javascript" src="js/monitormask.js"></script>
+<script type="text/javascript">
+ 
+ $(document).ready(function(){
+$("#addmonitor").click(function(){
+	  $("#mask1").show();
+	  $("#addMonitorForm1").slideDown();
+	});
+	
+	$("#close").click(function(){
+	  $("#addMonitorForm1").slideUp();
+	  $("#mask1").hide();
+	});
+ });
+
+  </script>
+
 </head>
 <body>
 <div class="container">
@@ -87,4 +106,81 @@ dshcss.css" rel="stylesheet" type="text/css"/>
  
  </main>
 </body>
+ <!--button mask code -->
+   <div id="mask1"></div>
+<div id="addMonitorForm1">
+<div id="container1">
+<div class="monitortype1">
+<div >
+     <form id="form">
+     <h3>New Monitor</h3>
+     <hr/>
+     <br/>
+     
+     <h4>Monitor Information</h4>
+     <hr/>
+     
+     
+     <table>
+     <tr>
+     <td>
+     <label>Monitor Type*</label>     
+     
+     
+  <select id ="select" onchange="javascript:getRes()">
+  <option value="Please Select">  Please  Select </option>
+  <option value="http">http</option>
+  <option value="keyword">keyword</option>
+  <option value="ping">ping</option>
+   </select>    
+     </td>
+     </tr><tr><td>
+<div id="fillresults">
+
+</div><tr><td>
+     </table>
+     <hr/>
+     </form>
+     </div>
+     </div>
+     
+     <div class="alertmail1">
+     
+     <div style="float=left; height:40px; width:90%; background-color:#CAFFCA; margin:10px 0px 0px 20px;">
+     <br/>
+     
+     <label>Monitor created! You can keep creating new monitors.</label>
+     </div>
+     
+     <div style="float=left; height:200px; width:90%; background-color:#FFFFD5; margin-left:20px; margin-bottom:-10px; padding:0px;"  >
+     <br/>
+     
+       <label>  Select "Alert Contacts To Notify"</label>
+       <hr/>
+       <table height="80px" width="90%" style="margin:0px 0px 0px 20px;">
+       <tr style="background-color:#CCCCCC; cellpadding:0px;">
+       <td>       </td>
+       <td>
+       <label>Type</label>       </td>
+       <td>
+       <label>Alert Contact</label>       </td>
+       </tr>
+       <tr>
+       <td>
+       <input type="checkbox" name="vehicle" >       </td>
+       <td>
+       <label>Type</label>       </td>
+       <td>
+       <label>	vyom.jhs@gmail.com</label>       </td>
+       </tr>
+       </table>
+       <hr/>
+       <label>New alert contacts can be defined from the "My Settings page.</label>
+     </div>
+         <button id="btn1"  >Create Monitor </button>
+         <button id="btn2"  >Close </button>
+     </div>
+    
+     </div>
+     </div>
 </html>
