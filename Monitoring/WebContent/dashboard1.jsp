@@ -15,7 +15,7 @@ dshcss.css" rel="stylesheet" type="text/css"/>
 <link href="css/http.css" rel="stylesheet" type="text/css"/>
 <script language="javascript" src="js/monitormask.js"></script>
 <script type="text/javascript">
- 
+  
  $(document).ready(function(){
 $("#addmonitor").click(function(){
 	  $("#mask1").show();
