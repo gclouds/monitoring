@@ -10,17 +10,7 @@
 <link href="css/http.css" rel="stylesheet" type="text/css"/>
  <script type="text/javascript">
  
- $(document).ready(function(){
-$("#signup1").click(function(){
-	  $("#mask1").show();
-	  $("#addMonitorForm1").slideDown();
-	});
-	
-	$("#close").click(function(){
-	  $("#addMonitorForm1").slideUp();
-	  $("#mask1").hide();
-	});
- });
+
 
   </script>
 </head>

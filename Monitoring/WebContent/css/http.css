@@ -25,40 +25,35 @@ margin-left:20px;
 #addMonitorForm1
 {
 position:absolute;
-	  height:90%;
-      width:60%;
-	  top:10%;
-	  left:30%;
+	  min-height:200px;
+      width:50%;
+	  top:20%;
+	  left:25%;
 	  background:#fff;
 	  z-index:500;
 	  display:none;
-	  margin:0px 0px 30px 0px; 
+	  margin:0px; 
 	  }
 #container1{
 float:left;
-height:100%;
+min-height:200px;
 width:100%;
 background-color:#CCCCCC;
+margin: 0px;
+padding: 0px;
 
 }
 
 .monitortype1
 {
+		  min-height:200px;
+	
 float:left;
-height:300px;
-width:80%;
+width:100%;
 z-index:500px;
-margin:10px 10px 0px 50px;
+margin:0px;
+padding:0px;
 background-color:#F4F4F4;
 }
 
-.alertmail1
-{
-float:left;
-height:260px;
-width:80%;
-z-index:500px;
-margin:10px 10px 0px 50px;
-background-color:#F4F4F4;
-}
 
