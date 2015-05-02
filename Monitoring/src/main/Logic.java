@@ -15,13 +15,14 @@ public class Logic {
 			URL obj1;
 			try {
 				obj1 = new URL(url);
-
+				long currentTimeMillis = System.currentTimeMillis();
 				HttpURLConnection con = (HttpURLConnection) obj1.openConnection();
 				con.setRequestMethod("GET");
 				con.setRequestProperty("User-Agent", "Mozilla/5.0");
 				responseCode = con.getResponseCode()+"";
-
-				System.out.println(responseCode);
+				long currentTimeMillis2 = System.currentTimeMillis();
+				Long responseTimeInMilisec=currentTimeMillis2-currentTimeMillis;
+				System.out.println(responseCode+":::"+(responseTimeInMilisec));
 				
 			} catch (MalformedURLException e1) {
 				responseCode="MalformedURLException";

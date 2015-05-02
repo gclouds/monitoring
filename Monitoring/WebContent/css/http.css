@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* CSS Document */
+#mask1{
+	  position:fixed;
+	  height:100%;
+	  width:100%;
+	  top:10px;
+	  left:0px;
+	  background:#000;
+	  opacity:0.5;
+	  z-index:100;
+	  display:none
+	}
+	  
+	 
+
+select{
+float:left;
+margin-left:20px;
+}
+label{
+float:left;
+margin-left:20px;
+}
+#addMonitorForm1
+{
+position:absolute;
+	  height:90%;
+      width:60%;
+	  top:10%;
+	  left:30%;
+	  background:#fff;
+	  z-index:500;
+	  display:none;
+	  margin:0px 0px 30px 0px; 
+	  }
+#container1{
+float:left;
+height:100%;
+width:100%;
+background-color:#CCCCCC;
+
+}
+
+.monitortype1
+{
+float:left;
+height:300px;
+width:80%;
+z-index:500px;
+margin:10px 10px 0px 50px;
+background-color:#F4F4F4;
+}
+
+.alertmail1
+{
+float:left;
+height:260px;
+width:80%;
+z-index:500px;
+margin:10px 10px 0px 50px;
+background-color:#F4F4F4;
+}
+
