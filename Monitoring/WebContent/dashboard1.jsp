@@ -15,9 +15,7 @@
 </head>
 <body>
 	<div class="container">
-		<header> <img
-			src="images/images1.jpg"
-			height="120px" /> </header>
+		<header> <img src="images/images1.jpg" height="120px" /> </header>
 		<div class="space">
 
 			<a href="#"
@@ -67,12 +65,27 @@
 		<input type="search" placeholder="search"
 			style="margin: 30px 0px 0px 10px; background-color: #000000; color: #999999;" />
 	</div>
-	
+
 	<div class="dynamicpage">
 		<div class="mons" id="monitorsList">
-		<div class="results"><center>Monitors</center></div><div class="results" id><center>Status</center></div>
+			<div class="results">
+				<div
+					style="border-bottom: medium; border-bottom-color: blue; border-bottom-style: solid;">
+					<center>
+						<a href="#" onclick="javascript:getMon()">Monitors</a>
+					</center>
+				</div>
+				<div id="allMonitors"></div>
+			</div>
+			<div class="results">
+				<div
+					style="border-bottom: medium; border-bottom-color: blue; border-bottom-style: solid;">
+					<center>Status</center>
+				</div>
+				<div id="monStatus"></div>
+			</div>
 		</div>
-</div>
+	</div>
 
 	</main>
 </body>
@@ -105,7 +118,7 @@
 					</div>
 				</form>
 			</div>
-	</div>
+		</div>
 
-</div>
+	</div>
 </html>

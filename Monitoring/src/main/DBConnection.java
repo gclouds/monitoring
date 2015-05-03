@@ -12,7 +12,7 @@ public class DBConnection {
 	static Connection con = null;
 	static String un = "root";
 	static String pw = "";
-	static String url = "jdbc:mysql://localhost:3306/user";
+	static String url = "jdbc:mysql://localhost:3306/vyom";
 
 	public DBConnection()  {
 		getConnect(url, un, pw);

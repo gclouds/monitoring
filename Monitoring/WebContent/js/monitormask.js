@@ -31,3 +31,43 @@ $(document).ready(function() {
 		$("#mask1").hide();
 	});
 });
+
+function getMon() {
+	//alert("hiii");
+	$("#allMonitors").html("Loading...");
+	$.ajax({
+		type : "POST",
+		url : "web/FetchMonitors.jsp",
+		contentType : "text/xml",
+		data : "",
+		success : function(response) {
+			// alert("Server said:\n '" + response + "'");
+			$("#allMonitors").html(response);
+
+		},
+		error : function(e) {
+			$
+			$("#allMonitors").html(e);
+		}
+	});
+}
+function getMonStatus(url) {
+	//alert("hiii");
+	$("#monStatus").html("Loading...");
+	$.ajax({
+		type : "POST",
+		url : "web/MonitorResults.jsp?url="+url,
+		contentType : "text/xml",
+		data : "",
+		success : function(response) {
+			// alert("Server said:\n '" + response + "'");
+			$("#monStatus").html(response);
+
+		},
+		error : function(e) {
+			$
+			$("#monStatus").html(e);
+		}
+	});
+}
+

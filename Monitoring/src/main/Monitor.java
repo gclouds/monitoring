@@ -1,5 +1,6 @@
 package main;
 
+import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import java.sql.Statement;
 
@@ -8,8 +9,17 @@ import com.mysql.jdbc.Connection;
 public class Monitor {
 	Statement createStatement=null;
 	static Connection con = null;
+	String userId=null;
+	String monId=null;
 
 	public Monitor(String userId,String monId){
+		this.userId=userId;
+		this.monId=monId;
+		DBConnection db = new DBConnection();
+		con=db.getConnection();
+	}
+	public Monitor(String userId){
+		this.userId=userId;
 		DBConnection db = new DBConnection();
 		con=db.getConnection();
 	}
@@ -24,12 +34,21 @@ public class Monitor {
 			e.printStackTrace();
 		}
 	}
-	public void addMonitor(){
+	public void addMonitor(String userId, String url,String fname, String monType, String keyword, String timeSpanMS){
+		if(keyword==null){
+			keyword="NA";
+		}
 		try {
-			String sql="INSERT INTO compte (userId, url, timeSpanMS, monType,keyWord) "
+			String sql="INSERT INTO compte (userId, url,fname, monType,keyWord, timeSpanMS) "
                             + " VALUES(?,?,?,?,?)";
-			Statement createStatement = con.prepareStatement(sql);
-			createStatement.execute(sql, Statement.RETURN_GENERATED_KEYS);
+			PreparedStatement ps = con.prepareStatement(sql);
+			ps.setString(1,userId);
+			ps.setString(2,url);
+			ps.setString(3,fname);
+			ps.setString(4,monType);
+			ps.setString(5,keyword);
+			ps.setString(6,timeSpanMS);
+			ps.execute(sql, Statement.RETURN_GENERATED_KEYS);
 			
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
