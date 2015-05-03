@@ -6,17 +6,8 @@
 <%@page import="main.RegistraionBase"%>
 <%@page import="main.UserBean"%>
 <%@page import="main.AuthCode"%>
-<%--
-<%@page import="org.eclipse.jdt.internal.compiler.lookup.ClassScope"%>--%>
-<%@page import="java.security.MessageDigest"%>
-<%@page import="com.sun.mail.smtp.DigestMD5,sun.misc.*"%>
 <%@page import="main.SuperMail"%>
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
-<%@page import="java.sql.*"%>
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
-   "http://www.w3.org/TR/html4/loose.dtd">
-
 <html>
 <head>
 <title>Validation</title>

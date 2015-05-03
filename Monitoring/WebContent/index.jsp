@@ -19,8 +19,8 @@
       </header>
       <div class="login">
       <ul>
-          <li style="background:#009100"><a href="signup_test.html" style=" color:#FFFFFF" id="signup">Create an Account</a></li> 
-      <li style="background:#009100;"><a href="#" style=" color:#FFFFFF">Log In</a></li>      
+          <li style="background:#009100"><a href="signup.jsp" style=" color:#FFFFFF" id="signup">Create an Account</a></li> 
+      <li style="background:#009100;"><a href="login.jsp" style=" color:#FFFFFF">Log In</a></li>      
       
       </ul>
       </div>
