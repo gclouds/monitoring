@@ -31,7 +31,7 @@ public class DBConnection {
 			e.printStackTrace();
 		} catch (SQLException e) {
 			e.printStackTrace();
-		}
+		} 
 	}
 
 	public Connection getConnection(){
