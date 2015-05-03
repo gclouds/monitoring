@@ -1,133 +1,170 @@
 @charset "utf-8";
 /* CSS Document */
-body{
-     margin:0px;
-	 padding:0px;
-
-}
-.container{
-	float:left;
-	height:130px;
-	width:100%;
-	
-	margin:0px 0px 0px 0px;
-	 
-	}
-	header{
-        float:left;
-		height:120px;
-		width:30%;
-		
-		}
-		.container img
-{
-margin:0px 0px 0px 35px;
+body {
+	margin: 0px;
+	padding: 0px;
 }
 
-.container .logout{
-	float:left;
-	height:129px;
-	width:30%;
-	
-	
-	
-}
-.container .logout ul{
-	float:left;
-	display:block;
-	list-style-type:none;
-}
-.container .logout ul li{
-	float:left;
-	height:30px;
-	width:200px;
-	margin-top:5px;
-	text-align:center;
-}
-.container .logout ul li a:link{
-	float:left;
-	text-decoration:none;
-	text-align:center;
-	margin:5px 0px 5px 10px;
-	color:#FFFFFF;
+.container {
+	float: left;
+	height: 130px;
+	width: 100%;
+	margin: 0px 0px 0px 0px;
 }
 
-.container .space
-{
-        float:left;
-		height:50px;
-		width:40%;
-		
-		margin:30px 0px 0px 0px;
-		
-		
+header {
+	float: left;
+	height: 120px;
+	width: 30%;
 }
 
-
-
-
-input[type=search]
-{
-height:30px;
-width:180px;
-
+.container img {
+	margin: 0px 0px 0px 35px;
 }
-main
-{
-    float:left;
-	height:500px;
-	width:80%;
-	margin:0px 0px 0px 10%;
-	}
-	
-	.addmonitor{
-	 float:left;
-	height:500px;
-	width:40%;
-	background-color:#CCCCCC;
-	
-	}
-	.addmonitor .moniter_button
-	{
-	float:left;
-	height:100px;
-	width:50%;
-	border-bottom:1px solid #009100;
-	
-	
-	
-	}
-	.addmonitor .moniter_button input[type=submit]
-	{
-	margin:30px 0px 0px 23px;
-	height:30px;
-	width:80%;
-	border-radius:6px;
-	background-color:#009100;
-	
-	font-size:16px;
-	}
-	.dynamicpage
-	{
-	float:left;
-	height:500px;
-	width:40%;
-	
-	}
-	.empty{
-	float:left;
-	height:100px;
-	width:100%;
-	
-	}
-	.alert
-	{
-	
-	float:left;
-	height:100px;
-	width:100%;
-	background-color:#00CC99;
-	}
-	
-	
-	
+
+.container .logout {
+	float: left;
+	height: 129px;
+	width: 30%;
+}
+
+.container .logout ul {
+	float: left;
+	display: block;
+	list-style-type: none;
+}
+
+.container .logout ul li {
+	float: left;
+	height: 30px;
+	width: 200px;
+	margin-top: 5px;
+	text-align: center;
+}
+
+.container .logout ul li a:link {
+	float: left;
+	text-decoration: none;
+	text-align: center;
+	margin: 5px 0px 5px 10px;
+	color: #FFFFFF;
+}
+
+.container .space {
+	float: left;
+	height: 50px;
+	width: 40%;
+	margin: 30px 0px 0px 0px;
+}
+
+input[type=search] {
+	height: 30px;
+	width: 180px;
+}
+
+main {
+	float: left;
+	height: 500px;
+	width: 80%;
+	margin: 0px 0px 0px 10%;
+}
+
+.addmonitor {
+	float: left;
+	width: 80%;
+	background-color: #CCCCCC;
+}
+
+.addmonitor .moniter_button {
+	float: left;
+	height: 100px;
+	width: 50%;
+	border-bottom: 1px solid #009100;
+}
+
+.addmonitor .moniter_button input[type=submit] {
+	margin: 30px 0px 0px 23px;
+	height: 30px;
+	width: 80%;
+	border-radius: 6px;
+	background-color: #009100;
+	font-size: 16px;
+}
+
+.dynamicpage {
+	float: left;
+	height: 500px;
+	width: 100%;
+}
+
+.empty {
+	float: left;
+	height: 100px;
+	width: 100%;
+}
+
+.results {
+	border: thin;
+	border-color: blue; 
+	border-style : solid; 
+	float : left;
+	width: 49.7%;
+	background-color: #00CC99;
+	float: left;
+	border-bottom-style: solid;
+}
+
+@charset "utf-8";
+/* CSS Document */
+#mask1 {
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	top: 10px;
+	left: 0px;
+	background: #000;
+	opacity: 0.5;
+	z-index: 100;
+	display: none
+}
+
+select {
+	float: left;
+	margin-left: 20px;
+}
+
+label {
+	float: left;
+	margin-left: 20px;
+}
+
+#addMonitorForm1 {
+	position: absolute;
+	min-height: 200px;
+	width: 50%;
+	top: 20%;
+	left: 25%;
+	background: #fff;
+	z-index: 500;
+	display: none;
+	margin: 0px;
+}
+
+#container1 {
+	float: left;
+	min-height: 200px;
+	width: 100%;
+	background-color: #CCCCCC;
+	margin: 0px;
+	padding: 0px;
+}
+
+.monitortype1 {
+	min-height: 200px;
+	float: left;
+	width: 100%;
+	z-index: 500px;
+	margin: 0px;
+	padding: 0px;
+	background-color: #F4F4F4;
+}

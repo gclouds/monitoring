@@ -7,20 +7,16 @@
 
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
-<link href="css/
-dshcss.css" rel="stylesheet" type="text/css" />
-
+<title>Dash Board</title>
 <script language="javascript" src="js/jquery-2.1.3.min.js"></script>
-<link href="css/http.css" rel="stylesheet" type="text/css" />
 <script language="javascript" src="js/monitormask.js"></script>
-
-
+<link href="css/http.css" rel="stylesheet" type="text/css" />
+<link href="css/dshcss.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
 	<div class="container">
 		<header> <img
-			src="../../Documents/NetBeansProjects/WebApplication2/images/images (1).jpg"
+			src="images/images1.jpg"
 			height="120px" /> </header>
 		<div class="space">
 
@@ -37,7 +33,7 @@ dshcss.css" rel="stylesheet" type="text/css" />
 			<ul>
 				<li style="background: #009100">
 					<div>
-						<img src="images/business_user.png" height="22px" width="22px"
+						<img src="images/images.jpg" height="22px" width="22px"
 							style="float: left; margin-top: 5px" />
 					</div> <a href="#" style="color: #FFFFFF; font-style: italic;"
 					id="signup s "> Vyom</a>
@@ -45,7 +41,7 @@ dshcss.css" rel="stylesheet" type="text/css" />
 
 				<li style="background: #009100;">
 					<div>
-						<img src="images/download (1).png" height="22px" width="22px"
+						<img src="images/download1.jpg" height="22px" width="22px"
 							style="float: left; margin-top: 5px" />
 					</div> <a href="#"
 					style="color: #FFFFFF; text-align: center; font-style: italic;" "/>Log
@@ -71,35 +67,12 @@ dshcss.css" rel="stylesheet" type="text/css" />
 		<input type="search" placeholder="search"
 			style="margin: 30px 0px 0px 10px; background-color: #000000; color: #999999;" />
 	</div>
-	</div>
+	
 	<div class="dynamicpage">
-		<div class="empty" style="background-color: #242424;"></div>
-
-		<div class="alert">
-			<h3>Min Up Time:</h3>
-			<label>03hr 2min</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-			<label>status: ok(200)</label>
-
-
+		<div class="mons" id="monitorsList">
+		<div class="results"><center>Monitors</center></div><div class="results" id><center>Status</center></div>
 		</div>
-
-		<div class="alert">
-			<h3>Max Up Time:</h3>
-			<label>03hr 2min</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-			<label>status: ok(200)</label>
-		</div>
-		<div class="alert">
-			<h3>Max Up Time:</h3>
-			<label>03hr 2min</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-			<label>status: ok(200)</label>
-		</div>
-		<div class="alert">
-			<h3>Max Up Time:</h3>
-			<label>03hr 2min</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-			<label>status: ok(200)</label>
-		</div>
-	</div>
-
+</div>
 
 	</main>
 </body>
