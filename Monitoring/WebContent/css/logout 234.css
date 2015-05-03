@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+
+.main{
+float:left;
+height:400px;
+width:50%;
+margin-left:25%;
+margin-top:10%;
+background-color:#F5F5F5;
+}
+
+.head{
+float:left;
+height:40px;
+width:100%;
+background-color:#004488;
+}
+
+.container{
+float:left;
+height:200px;
+width:50%;
+border-radius:5px;
+background-color:#CCCCCC;
+margin:30px 0px 0px 25%;
+
+}
