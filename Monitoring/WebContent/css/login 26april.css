@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+
+.main{
+float:left;
+height:400px;
+width:50%;
+margin-left:25%;
+margin-top:10%;
+background-color:#F5F5F5;
+}
+
+.head{
+float:left;
+height:40px;
+width:100%;
+background-color:#FFFFFF;
+}
+
+.space{
+float:left;
+height:300px;
+width:20%;
+}
+
+.container_left{
+float:left;
+height:200px;
+width:20%;
+
+}
+
+
+
+.container_right input[type=checkbox]{
+float:left;
+height:40px;
+width:30px;
+}
